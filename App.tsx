@@ -1,10 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, TextInput, Text, View } from 'react-native';
+
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Olá mundo!</Text>
+      <Text>Fatec Indaiatuba</Text>
+      <TextInput placeholder="Digite algo..." />
+      <Pressable>
+        <text>Pressione aqui</text>
+        </Pressable>
       <StatusBar style="auto" />
     </View>
   );
