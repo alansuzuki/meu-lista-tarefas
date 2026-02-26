@@ -10,7 +10,9 @@ export default function App() {
       <Text>Olá mundo!</Text>
       <Text>Fatec Indaiatuba</Text>
       <TextInput placeholder="Digite algo..." />
-      <Pressable>
+      <Pressable>npx expo install expo-router expo-sqlite expo-linking expo-constants expo-status-bar \
+  react-native-screens react-native-safe-area-context \
+  react-native-gesture-handler react-native-reanimated react-native-worklets
         <text>Pressione aqui</text>
         </Pressable>
       <StatusBar style="auto" />
